@@ -68,7 +68,7 @@ The dataset is large and is **not included** in this repository to keep the repo
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/PlantVillage-DeepLearning-System.git](https://github.com/YOUR_USERNAME/PlantVillage-DeepLearning-System.git)
+    git clone [https://github.com/Ekinrmak/PlantVillage-DeepLearning-System.git](https://github.com/YOUR_USERNAME/PlantVillage-DeepLearning-System.git)
     cd PlantVillage-DeepLearning-System
     ```
 
