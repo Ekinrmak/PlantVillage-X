@@ -1,0 +1,40 @@
+# --- Python & Runtime ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# --- Jupyter Notebooks ---
+# Checkpoints stores temporary save states, we don't need them in repo
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Datasets & Big Files (CRITICAL) ---
+# We exclude the data directory to avoid uploading large image datasets to GitHub.
+# Users should download the dataset via the link in README.
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# --- Model Weights ---
+# Trained models can be large. If <100MB you can un-comment them, 
+# but for academic repos, reproducibility (code) is more important than binaries.
+*.h5
+*.keras
+*.tflite
+models/
+
+# --- IDE & System Settings ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Analytics ---
+logs/
+training_logs.csv
